@@ -1,14 +1,6 @@
 <div>
   <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">Frachtigall</a>
-    <div class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <button (click)="auth.loginWithRedirect()">Login</button>
-      </li>
-    </div>
+    <app-auth-button></app-auth-button>
   </nav>
-
-  <div class="container mt-3">
-    <router-outlet></router-outlet>
-  </div>
 </div>
+<router-outlet></router-outlet>

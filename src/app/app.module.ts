@@ -9,12 +9,14 @@ import { ConveyorComponent } from './conveyor/conveyor.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { AuthButtonComponent } from './auth-button/auth-button.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConveyorComponent,
-    AuthButtonComponent
+    AuthButtonComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
